@@ -1,5 +1,8 @@
-# Chatis Santos
+**Chatis Santos**  
+Phone: (314) 696-3291  
+Email: [chatis.santos@gmail.com](mailto:chatis.santos@gmail.com)
 
+# Summary
 With a solid background in full-stack development spanning over a decade, I have successfully contributed to and led a diverse array of projects across multiple industries. As the founder of Afrointelligence Co, I assembled and managed a team to deliver cutting-edge healthcare and programming education platforms. My extensive experience includes working with renowned companies such as Toptal, Boeing, and Coupang, where I leveraged my expertise in various technologies, including React, Angular, Vue.js, and Java, to create efficient and user-friendly systems. I am passionate about mentoring and training new developers, actively addressing user feedback, and ensuring continuous improvement and satisfaction. My ability to adapt to evolving technology landscapes and a strong commitment to delivering exceptional results make me a valuable asset in any development team.
 ## Technical Skills
 
@@ -8,16 +11,13 @@ With a solid background in full-stack development spanning over a decade, I have
 - **Web Frameworks**: React, Angular, Svelte, Node.js, Vue, Nuxt, Next, Nest, Astro, Ngrx, Redux, Tailwind, Material-UI
 - **REST Frameworks**: Java Spring Boot, NestJs, .NET
 - **TEST Frameworks**: Geb, Jest, Vitest, Testing-Library, Test-Cafe, Enzyme, Playwright, Cypress
+- **Databases**: Microsoft SQL, PostgreSQL, MariaDB, MySQL, OracleSQL
 - **Cloud Technologies**: AWS, Terraform, Netlify, Vercel, Azure, GCP
 - **Containerization**: Docker
+- **Operating System**: Linux, Windows
 - **Other**: ChatGPT Prompt Engineer, Polymer
 
 ## Experience
-
-### Afrointelligence Co, Cotonou, Benin — Founder (01/2017 - Present)
-- Assembled and led a talented development team to successfully deliver the following projects:
-  - Medlivs.com, a comprehensive healthcare platform
-  - Procamp.dev, an advanced programming education resource
 
 ### Technology Partners, St. Louis, MO — Software Engineer (04/2022 - Present)
 - Assisting in the development of innovative features for EHI's car rental reservation system, enhancing efficiency and customer experience
@@ -28,6 +28,20 @@ With a solid background in full-stack development spanning over a decade, I have
 - Led the implementation of tailored CRM extensions and a robust order management tool at Fracture's e-commerce platform, leveraging PHP and JavaScript expertise to enhance user experience and improve operational efficiency.
 - Contributed to the development of a high-performance C++ compiler for ATT, facilitating the conversion of React Native apps into cross-platform TV applications, enhancing compatibility and user experience.
 - Assisted Coupang in swiftly incorporating last-minute features during the busy holiday season, utilizing Vue.js to ensure seamless user experience and timely delivery
+
+### Afrointelligence Co, Cotonou, Benin — Founder And Principal Software Engineer (01/2017 - Present)
+
+- **Medlivs.com, a comprehensive healthcare platform for sub-Saharan Africa:**
+  - Spearheaded and managed a skilled development team to successfully bring the innovative project to fruition.
+
+- **Procamp.dev, a cutting-edge programming education resource:**
+  - Engineered a robust container orchestration system for remote development, utilizing AWS ECS for environment hosting and deployment, and leveraging EBS for a shared cache to expedite dependency installation.
+  - Devised a versatile, custom in-browser IDE inspired by Visual Studio Code, capable of executing code templates, demonstrating innovation and adaptability in addressing unique challenges.
+  - Architected and executed a state-of-the-art interactive course player and skill assessment tool that leverages CodeMirror for code editing, and utilizes Vitest or Geb for comprehensive testing, showcasing proficiency in designing effective learning solutions.
+  - Directed and mentored a high-performing development team to ensure the successful completion of the project.
+
+- **Angularlab.dev, a pioneering open-source project:**
+  - Developed an in-browser IDE equipped with an AI assistant capable of answering Angular-related queries based on documentation. Achieved this by generating and storing embeddings in a Supabase database and utilizing the embeddings as context to prompt OpenAI's API, demonstrating prompt engineering expertise.
 
 ### Marathon TS, St. Louis, MO, Full Stack Engineer (02/2020 - 11/2022)
 - Spearheaded the modernization of an enterprise application for the National Geospatial Agency using React, Node.js, Terraform, and AWS.
@@ -74,7 +88,7 @@ With a solid background in full-stack development spanning over a decade, I have
 ## Education
 
 **University of Missouri St. Louis** — B.S. in Computer Science (May 2023)
-**Ecole Supérieure Multinationale des Télécommunications** — Associate of Applied Science (AAS) (September 2009)
+**Ecole Supérieure Multinationale des Télécommunications** — Bachelor of Applied Science - BASc (BASc) (September 2009)
 
 ## Connect with Me
 
