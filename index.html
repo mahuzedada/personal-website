@@ -1,150 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chatis Santos - Passionate software engineer</title>
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.17/dist/tailwind.min.css" />
-  <meta property="og:image" content="./avatar.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Chatis Santos">
-  <link rel="icon" href="./favicon.ico" type="image/x-icon">
-</head>
-<body class="bg-gray-900 text-white">
-<div class="container mx-auto px-4 py-8">
-  <div class="flex items-center">
-    <img src="./avatar.jpg" alt="Chatis Santos" class="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 rounded-full mr-4">
-    <h1 class="text-3xl font-bold">Chatis Santos</h1>
-  </div>
-  <div class="mt-8">
-    <div class="container mx-auto py-8">
-      <div id="p1" class="p-4">
-        <h1 class="text-3xl font-bold mb-4">Hark, attend to my words, do not waver,</h1>
-        <p class="mb-8">For I am <span class="underline">Chatis</span> Santos, from Benin's land,<br>
-          In this fair abode, I work with the fervor,<br>
-          With the skills of my hands.</p>
-        <div id="p1_desc" class="hidden mt-4  bg-gray-100 border border-gray-500 text-gray-700 px-4 py-3 rounded relative mb-4">
-        <span class="block sm:inline">My name is Chatis Santos, a native of the vibrant country of Benin. I have transitioned to the United States,
-          where, since 2009, I have been leveraging my expertise as a seasoned software developer.</span>
-        </div>
-      </div>
-      <div id="p2" class="mb-8 p-4">My heart burns with the fire of knowledge,<br>
-        To know the universe and its origin so vast,<br>
-        But <span class="underline">chemical</span> art, I considered in college,<br>
-        Trial and error's cost was too much, alas.
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatis Santos Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
-        <div id="p2_desc" class="hidden mt-4 bg-gray-100 border border-gray-500 text-gray-700 px-4 py-3 rounded relative mb-4">
-        <span class="block sm:inline">
-          <span onclick="showFailedExpInfo()">My unyielding passion for knowledge drives me to explore
-            the vast universe and its origins. In college, I delved into chemistry, but a costly</span>
-          <span class="underline">failed experiment</span>
-          <div id="failedExpInfo" class="bg-white border border-gray-300 text-gray-800 px-4 py-3 rounded shadow-md hidden">
-            <p>
-              At 17, I ambitiously entered a science competition with a $200 prize, using $50
-              of my mom's change for the entry fee and supplies. I devised a creative "Fruit-Powered Battery"
-              experiment and, due to limited funds, I was not able to test the idea. Instead, I consulted with my chemistry and physics
-              professor to ensure its success. Despite thorough preparation, during the presentation, the copper and zinc
-              elements inside the lemon touched, causing a short circuit and embarrassment.
-              To repay my mom, I had to save around 40% of my daily allowance for three months.
-
-            </p>
-          </div>
-
-          led me to reconsider. I realized that despite my curiosity for
-          matter and its properties, achieving greatness in chemical engineering would be
-          challenging if the cost of failure remained high.</span>
-        </div>
-
-      </div>
-
-
-      <div id="p3" class="mb-8 p-4">In <span class="underline">software</span> engineering, I found my place,<br>
-        Where I may fail and learn, without despair,<br>
-        A cheap way to try and try again with grace,<br>
-        And repair the sting of failure, if I dare.
-      <div id="p3_desc" class="hidden mt-4 bg-gray-100 border border-gray-500 text-gray-700 px-4 py-3 rounded relative mb-4">
-        <span class="block sm:inline">
-          Upon realizing the high costs associated with
-          conducting numerous chemistry experiments,
-          I ventured into exploring other sciences.
-          My first foray into programming was a group
-          project to develop a chat application.
-          The exhilarating experience of iterating through
-          the process of trial, error, and eventual success
-          captivated me. Moreover, the relatively low
-          cost of failure in programming empowered me
-          to fearlessly tackle ambitious tasks,
-          solidifying my passion for programming
-          and the endless possibilities it offers.
-          </span>
-      </div>
-      </div>
-
-
-      <p>If thou seeks to know more of my ways and works,<br>
-        Visit my <a href="https://github.com/mahuzedada" class="text-blue-700 underline">Github</a> and <a href="https://twitter.com/mahuzedada" class="text-blue-700 underline">Twitter</a>, where my story lurks.</p>
-      <div class="flex justify-end" id="click">@<span class="underline">mahuzedada</span></div>
-      <div id="mahuzedada-info" class="hidden bg-gray-100 border border-gray-500 text-gray-700 px-4 py-3 rounded relative mb-4">
-        <div class="bg-blue-100 border border-blue-500 text-blue-700 p-2 rounded-md">
-          <div class="list-disc text-xs flex justify-end flex-wrap gap-x-1">
-            <div class="underline"><a href="https://twitter.com/mahuzedada" target="_blank" rel="noopener noreferrer">twitter/@mahuzedada</a></div>
-            <div class="underline"><a href="https://github.com/mahuzedada" target="_blank" rel="noopener noreferrer">gitHub/@mahuzedada</a></div>
-            <div class="underline"><a href="https://dev.to/mahuzedada" target="_blank" rel="noopener noreferrer">dev.to/@mahuzedada</a></div>
-            <div class="underline"><a href="https://www.youtube.com/channel/UCEy59hJCahrTAaxNytiQYTA" target="_blank" rel="noopener noreferrer">youTube/@mahuzedada</a></div>
-            <div class="underline"><a href="https://www.instagram.com/mahuzedada" target="_blank" rel="noopener noreferrer">instagram/@mahuzedada</a></div>
-          </div>
-        </div>
-        <br>
-        <br>
-        <span class="block sm:inline">In <span onclick="showFonInfo()" class="underline">Fon</span>, the name "mahuzedada" can be broken down as follows:</span>
-        <div id="fonInfo" class="bg-white border border-gray-300 text-gray-800 px-4 py-3 rounded shadow-md hidden">
-          <p>Fon is a language predominantly spoken in the West African nation of Benin, originating from the historical kingdom of Dahomey.</p>
-        </div>
-        <br>
-        <span class="block sm:inline"><span class="font-bold">"mahu"</span> means "God", <span class="font-bold">"ze"</span> signifies "has chosen", and <span class="font-bold">"dada"</span> represents "the king"</span>
-        <br>
-        <span class="block sm:inline font-bold">"God has chosen the king"</span>
-        <br>
-        <span class="block sm:inline">Although the monarchs of my ancestral
-          realm of Dahomey have customarily been designated as "dada",
-          the essence of this term is more aligned with the concepts of "the
-          leader" or "the guide" than the notion of "the ruler".
-          The title carries with it a profound sense of responsibility.
-          As a human being, I view myself as a driving force within my family,
-          a paragon in my community, and a wellspring of hope and motivation
-          for those who look up to me.</span>
-
-    </div>
-  </div>
-</div>
-</div>
-<script>
-  const clickDiv = document.querySelector('#click');
-  const infoDiv = document.querySelector('#mahuzedada-info');
-
-  clickDiv.addEventListener('click', () => {
-    infoDiv.classList.toggle('hidden');
-  });
-  function showFonInfo() {
-    document.getElementById('fonInfo').classList.toggle('hidden');
-  }
-  function showFailedExpInfo() {
-    document.getElementById('failedExpInfo').classList.toggle('hidden');
-  }
-  document.querySelector('#p1').addEventListener('click', () => {
-    document.querySelector('#p1_desc').classList.toggle('hidden');
-    document.querySelector('#p1').classList.toggle('bg-gray-800');
-  });
-  document.querySelector('#p2').addEventListener('click', () => {
-    document.querySelector('#p2_desc').classList.toggle('hidden');
-    document.querySelector('#p2').classList.toggle('bg-gray-800');
-  });
-  document.querySelector('#p3').addEventListener('click', () => {
-    document.querySelector('#p3_desc').classList.toggle('hidden');
-    document.querySelector('#p3').classList.toggle('bg-gray-800');
-  });
-
-</script>
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
