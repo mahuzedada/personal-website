@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 
 type ContentComponentProps = {
+  index: number;
   mainContent: string;
   detailedContent?: string;
   extraDetailedContent?: string;
 };
 
 const PoemParagraph: React.FC<ContentComponentProps> = ({
+  index,
   mainContent,
   detailedContent,
   extraDetailedContent,
@@ -17,9 +19,9 @@ const PoemParagraph: React.FC<ContentComponentProps> = ({
 
   return (
     <div
-      className={`p-4 rounded-xl mb-8 ${
-        showDetailedContent ? 'shadow-xl' : ''
-      }`}
+      className={`p-4 rounded mb-2 border border-gray-300 dark:border-zinc-600 shadow-md ${
+        index % 2 === 0 ? '' : ''
+      }${showDetailedContent ? '' : ''}`}
     >
       <div
         className="cursor-pointer hover:underline"
@@ -29,7 +31,7 @@ const PoemParagraph: React.FC<ContentComponentProps> = ({
         dangerouslySetInnerHTML={{ __html: mainContent }}
       />
       {showDetailedContent && detailedContent && (
-        <div className="mt-4 bg-gray-100 max-w-md border border-gray-500 text-gray-700 px-4 py-3 rounded relative mb-4">
+        <div className="mt-4 max-w-md text-gray-800 bg-zinc-200 dark:text-zinc-100 dark:bg-zinc-600 px-4 py-3 rounded relative mb-4">
           <span
             className={`block sm:inline ${
               extraDetailedContent ? 'cursor-pointer hover:underline' : ''
@@ -41,7 +43,7 @@ const PoemParagraph: React.FC<ContentComponentProps> = ({
           />
           {showExtraDetailedContent && extraDetailedContent && (
             <div
-              className="bg-white border border-gray-300 text-gray-800 px-4 py-3 rounded shadow-md"
+              className="text-gray-800 px-4 py-3 rounded shadow-md"
               dangerouslySetInnerHTML={{ __html: extraDetailedContent }}
             />
           )}
