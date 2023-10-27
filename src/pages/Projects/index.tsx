@@ -1,6 +1,8 @@
 import React from 'react';
-import ProjectCard from './ProjectCard'; // Assuming ProjectCard is in the same directory
-// import s from '/src/asset/bitebot.png';
+import ProjectCard from './ProjectCard';
+import bitebot from '../../assets/bitebot.png';
+import docbrew from '../../assets/docbrew.png';
+import helphopper from '../../assets/helphopper.png';
 
 type ProjectType = {
   imageUrl: string;
@@ -12,27 +14,26 @@ type ProjectType = {
 
 const projectsData: ProjectType[] = [
   {
-    imageUrl: '/src/assets/bitebot.png',
+    imageUrl: bitebot,
     title: 'BiteBot',
     description: 'Description for project 1.',
     techStack: ['React', 'TypeScript'],
     projectLink: 'https://project1.example.com',
   },
   {
-    imageUrl: '/src/assets/docbrew.png',
+    imageUrl: docbrew,
     title: 'DocBrew',
     description: 'Description for project 2.',
     techStack: ['Node.js', 'MongoDB'],
     projectLink: 'https://project2.example.com',
   },
   {
-    imageUrl: '/src/assets/helphopper.png',
+    imageUrl: helphopper,
     title: 'HelpHopper',
     description: 'Description for project 3.',
     techStack: ['Node.js', 'MongoDB'],
     projectLink: 'https://project2.example.com',
   },
-  // ... Add more projects as needed
 ];
 
 const Projects: React.FC = () => {

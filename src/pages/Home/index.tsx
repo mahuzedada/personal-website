@@ -3,6 +3,7 @@ import PoemParagraph from './PoemParagraph';
 import poem from './poem';
 import SocialLinks from './SocialLinks';
 import MahuzedadaInfo from './MahuzadadaInfo';
+import avatar from '../../assets/avatar.jpg';
 
 const Home: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const Home: React.FC = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="flex items-center">
           <img
-            src="/src/assets/avatar.jpg"
+            src={avatar}
             alt="Chatis Santos"
             className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 rounded-full mr-4"
           />
